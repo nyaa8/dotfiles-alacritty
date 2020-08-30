@@ -1,0 +1,115 @@
+env:
+    TERM: xterm-256color
+
+window:
+    dimensions:
+        columns: 32
+
+font:
+    normal:
+        #family: JetBrains Mono
+        #family: SF Mono
+        #family: Fantasque Sans Mono
+        #family: Iosevka
+        #family: Monaco
+        #family: Lekton Nerd Font
+        #family: JetBrainsMono Nerd Font 
+        #family: Iosevka Nerd Font
+        family: Cascadia Code PL
+        style: SemiLight
+    bold:
+        style: SemiBold
+    size: 24
+    offset:
+        y: 4
+cursor:
+    style: Beam
+
+# colors: #Nord
+# # Default colors
+# primary:
+# background: '#161821'
+# foreground: '#d2d4de'
+# 
+# # Normal colors
+# normal:
+# black:      '#161821'
+# red:        '#e27878'
+# green:      '#b4be82'
+# yellow:     '#e2a478'
+# blue:       '#84a0c6'
+# magenta:    '#a093c7'
+# cyan:       '#89b8c2'
+# white:      '#c6c8d1'
+# :
+# # Bright colors
+# bright:
+# black:      '#6b7089'
+# red:        '#e98989'
+# green:      '#c0ca8e'
+# yellow:     '#e9b189'
+# blue:       '#91acd1'
+# magenta:    '#ada0d3'
+# cyan:       '#95c4ce'
+# white:      '#d2d4de'
+
+# colors: # Gruvbox
+#     # Default colors
+#     primary:
+#      # hard contrast: background = '#1d2021'
+#      background: '#282828'
+#      # soft contrast: background = '#32302f'
+#      foreground: '#ebdbb2'
+
+#     # Normal colors
+#     normal:
+#         black:   '#282828'
+#         red:     '#cc241d'
+#         green:   '#98971a'
+#         yellow:  '#d79921'
+#         blue:    '#458588'
+#         magenta: '#b16286'
+#         cyan:    '#689d6a'
+#         white:   '#a89984'
+
+#     # Bright colors
+#     bright:
+#         black:   '#928374'
+#         red:     '#fb4934'
+#         green:   '#b8bb26'
+#         yellow:  '#fabd2f'
+#         blue:    '#83a598'
+#         magenta: '#d3869b'
+#         cyan:    '#8ec07c'
+#         white:   '#ebdbb2'
+
+colors:
+  primary:
+    background: "#2c2e34"
+    foreground: "#e2e2e3"
+
+  normal:
+    black: "#181819"
+    red: "#fc5d7c"
+    green: "#9ed072"
+    yellow: "#e7c664"
+    blue: "#76cce0"
+    magenta: "#b39df3"
+    cyan: "#f39660"
+    white: "#e2e2e3"
+
+  bright:
+    black: "#181819"
+    red: "#fc5d7c"
+    green: "#9ed072"
+    yellow: "#e7c664"
+    blue: "#76cce0"
+    magenta: "#b39df3"
+    cyan: "#f39660"
+    white: "#e2e2e3"
+
+#background_opacity: 0.8
+
+key_bindings:
+    - { key: E, mods: Control|Shift,    action: SpawnNewInstance        }
+
