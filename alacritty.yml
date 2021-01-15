@@ -12,30 +12,20 @@ window:
 
 font:
     normal:
-        #family: JetBrains Mono
-        #family: SF Mono
-        family: Fantasque Sans Mono
-        #family: Iosevka
-        #family: Monaco
-        #family: Lekton Nerd Font
-        #family: JetBrainsMono Nerd Font 
-        #family: Iosevka Nerd Font
-        # family: JetBrainsMono
-    # bold:
-    #     style: SemiBold
+        family: Iosevka
+        #family: Fantasque Sans Mono
     size: 26
-    # offset:
-    #     y: 4
 
 cursor:
     style: Beam
 
-background_opacity: 0.89
+# background_opacity: 0.89
 
 schemes:
     embark: &embark
         primary:
-            background: '0x1e1c31'
+            background: '0x191919'
+            # background: '0x1e1c31'
             foreground: '0xcbe3e7'
         cursor:
             text:       '0x1e1c31'
